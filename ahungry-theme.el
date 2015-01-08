@@ -4,16 +4,16 @@
 ;; Copyright (C) 2013 Matthew Carter
 ;;
 ;; This program is free software: you can redistribute it and/or modify
-;; it under the terms of the GNU Affero General Public License as published by
+;; it under the terms of the GNU General Public License as published by
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
 ;;
 ;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-;; GNU Affero General Public License for more details.
+;; GNU General Public License for more details.
 ;;
-;; You should have received a copy of the GNU Affero General Public License
+;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;; Author: Matthew Carter
@@ -61,6 +61,14 @@
    '(font-lock-function-name-face ((t (:foreground "#ffee00" :bold t))))
    '(comint-highlight-input ((t (:italic t :bold t))))
    '(comint-highlight-prompt ((t (:foreground "#8ae234"))))
+   '(diff-header ((t (:background "gray30"))))
+   '(diff-index ((t (:foreground "#edd400" :bold t))))
+   '(diff-file-header ((t (:foreground "#eeeeec" :bold t))))
+   '(diff-hunk-header ((t (:foreground "#edd400"))))
+   '(diff-added ((t (:background "default" :foreground "#00ff00" :weight normal))))
+   '(diff-removed ((t (:background "default" :foreground "#ff0000" :weight normal))))
+   '(diff-context ((t (:foreground "#888a85"))))
+   '(diff-refine-change ((t (:bold t :background "gray30"))))
    '(isearch ((t (:background "#f57900" :foreground "#2e3436"))))
    '(isearch-lazy-highlight-face ((t (:foreground "#2e3436" :background "#e9b96e"))))
    '(show-paren-match-face ((t (:foreground "#2e3436" :background "#73d216"))))
@@ -146,6 +154,7 @@
    '(org-document-info ((t (:weight normal :foreground "#0077cc"))))
    '(magit-header ((t (:foreground "#ffc800"))))
    '(magit-diff-add ((t (:foreground "#00ff00"))))
+   '(magit-diff-del ((t (:foreground "#ff0000"))))
    '(magit-item-highlight ((t (:background "#111111" :slant normal :weight extra-bold :inverse-video nil))))
    '(minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
    '(web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))

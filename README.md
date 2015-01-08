@@ -54,4 +54,4 @@ set under the ~/.Xresources config.
 ![Assembly](https://github.com/ahungry/color-theme-ahungry/raw/master/assembly.png)
 
 ## License
-AGPLv3
+GPLv3

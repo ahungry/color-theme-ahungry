@@ -1,4 +1,4 @@
-;; color-theme-ahungry.el --- Ahungry color theme for Emacs.
+;;; color-theme-ahungry.el --- Ahungry color theme for Emacs.
 
 ;; color theme ahungry - A bright and bold color theme for GNU Emacs
 ;; Copyright (C) 2013 Matthew Carter
@@ -16,15 +16,19 @@
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-;; Author: Matthew Carter
-;; Keywords: ahungry palette color theme emacs
-;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.0
+;; Author: Matthew Carter <m@ahungry.com>
+;; Keywords: ahungry palette color theme emacs color-theme
+;; Url: https://github.com/ahungry/color-theme-ahungry
+;; Version: 1.0.1
 ;; Package-Requires: ((color-theme "6.6.1"))
 
-;; This file is NOT part of GNU Emacs.
+;;; Commentary:
 
+;; This file is NOT part of GNU Emacs.
 ;; color theme (requires http://www.emacswiki.org/cgi-bin/wiki?ColorTheme )
+
+;;; Code:
+
 (eval-when-compile
   (require 'color-theme))
 
@@ -32,7 +36,7 @@
 ;; commented out, so that the color-theme in terminal mode will not overwrite
 ;; a transparent background, while still remaining usable in GUI mode
 (defun color-theme-ahungry ()
-  "A color theme to my personal liking"
+  "A color theme to my personal liking."
   (interactive)
   (color-theme-install
    '(color-theme-ahungry

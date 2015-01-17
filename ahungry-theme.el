@@ -1,7 +1,7 @@
 ;;; ahungry-theme.el --- Ahungry color theme for Emacs.
 
 ;; color theme ahungry - A bright and bold color theme for GNU Emacs
-;; Copyright (C) 2013 Matthew Carter
+;; Copyright (C) 2013, 2014, 2015 Matthew Carter
 
 ;;; License:
 
@@ -20,7 +20,7 @@
 
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
-;; Url: https://github.com/ahungry/color-theme-ahungry
+;; URL: https://github.com/ahungry/color-theme-ahungry
 ;; Version: 1.0.2
 ;; Package-Requires: ((emacs "24"))
 

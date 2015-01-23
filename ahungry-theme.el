@@ -21,7 +21,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.2
+;; Version: 1.0.3
 ;; Package-Requires: ((emacs "24"))
 
 ;;; Commentary:
@@ -67,7 +67,7 @@
    '(font-lock-keyword-face ((t (:foreground "#3cff00" :bold t))))
    '(font-lock-string-face ((t (:foreground "#ff0077" :italic nil :bold nil))))
    '(font-lock-type-face ((t (:foreground "#deff00" :bold t))))
-   '(font-lock-variable-name-face ((t (:foreground "#5500ff" :bold t))))
+   '(font-lock-variable-name-face ((t (:foreground "#9900ff" :bold t))))
    '(font-lock-warning-face ((t (:bold t :foreground "#ff0000"))))
    '(font-lock-function-name-face ((t (:foreground "#ffee00" :bold t))))
    '(comint-highlight-input ((t (:italic t :bold t))))
@@ -100,7 +100,7 @@
    '(gnus-group-mail-1 ((t (:bold t :foreground "#00bbff"))))
    '(gnus-group-mail-2-empty ((t (:foreground "#00ffbb"))))
    '(gnus-group-mail-2 ((t (:bold t :foreground "#00ffbb"))))
-   '(gnus-group-mail-3-empty ((t (:foreground "#33ffbb"))))
+   '(gnus-group-mail-3-empty ((t (:foreground "#009955"))))
    '(gnus-group-mail-3 ((t (:bold t :foreground "#ffc800"))))
    '(gnus-group-mail-low-empty ((t (:foreground "#005fff"))))
    '(gnus-group-mail-low ((t (:bold t :foreground "#005fff"))))
@@ -108,7 +108,7 @@
    '(gnus-group-news-1 ((t (:bold t :foreground "#00bbff"))))
    '(gnus-group-news-2-empty ((t (:foreground "#00ffbb"))))
    '(gnus-group-news-2 ((t (:bold t :foreground "#00ffbb"))))
-   '(gnus-group-news-3-empty ((t (:foreground "#33ffbb"))))
+   '(gnus-group-news-3-empty ((t (:foreground "#009955"))))
    '(gnus-group-news-3 ((t (:bold t :foreground "#ffc800"))))
    '(gnus-group-news-low-empty ((t (:foreground "#005fff"))))
    '(gnus-group-news-low ((t (:bold t :foreground "#005fff"))))

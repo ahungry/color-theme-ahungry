@@ -10,7 +10,7 @@ To install, clone the repository via:
 
 ```
 cd ~/.emacs.d
-git clone https://github.com/ahungry/color-theme-ahungry.git
+git clone http://ahungry.com/images/color-theme-ahungry.git
 ```
 
 Then, make sure to add the following to your ~/.emacs:
@@ -35,25 +35,25 @@ taken while using emacs in rxvt-unicode with a transparent background
 set under the ~/.Xresources config.
 
 ### Emacs Config (~/.emacs)
-![~/.emacs](https://github.com/ahungry/color-theme-ahungry/raw/master/require.png)
+![~/.emacs](http://ahungry.com/images/color-theme-ahungry/require.png)
 
 ### Common Lisp
-![Common Lisp](https://github.com/ahungry/color-theme-ahungry/raw/master/common-lisp.png)
+![Common Lisp](http://ahungry.com/images/color-theme-ahungry/common-lisp.png)
 
 ### PHP
-![PHP](https://github.com/ahungry/color-theme-ahungry/raw/master/php.png)
+![PHP](http://ahungry.com/images/color-theme-ahungry/php.png)
 
 ### Perl
-![Perl](https://github.com/ahungry/color-theme-ahungry/raw/master/perl.png)
+![Perl](http://ahungry.com/images/color-theme-ahungry/perl.png)
 
 ### C
-![C](https://github.com/ahungry/color-theme-ahungry/raw/master/c.png)
+![C](http://ahungry.com/images/color-theme-ahungry/c.png)
 
 ### Javascript
-![Javascript](https://github.com/ahungry/color-theme-ahungry/raw/master/javascript.png)
+![Javascript](http://ahungry.com/images/color-theme-ahungry/javascript.png)
 
 ### Assembly
-![Assembly](https://github.com/ahungry/color-theme-ahungry/raw/master/assembly.png)
+![Assembly](http://ahungry.com/images/color-theme-ahungry/assembly.png)
 
 ## License
 GPLv3

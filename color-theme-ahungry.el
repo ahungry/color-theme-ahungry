@@ -1,7 +1,15 @@
 ;;; color-theme-ahungry.el --- Ahungry color theme for Emacs.
 
-;; color theme ahungry - A bright and bold color theme for GNU Emacs
-;; Copyright (C) 2013, 2014, 2015 Matthew Carter
+;; Copyright (C) 2015  Free Software Foundation, Inc.
+
+;; Author: Matthew Carter <m@ahungry.com>
+;; Maintainer: Matthew Carter <m@ahungry.com>
+;; URL: https://github.com/ahungry/color-theme-ahungry
+;; Version: 1.0.3
+;; Keywords: ahungry palette color theme emacs color-theme deftheme
+;; Package-Requires: ((color-theme "6.6.1"))
+
+;; This file is part of GNU Emacs.
 
 ;;; License:
 
@@ -17,12 +25,6 @@
 ;;
 ;; You should have received a copy of the GNU General Public License
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-;; Author: Matthew Carter <m@ahungry.com>
-;; Keywords: ahungry palette color theme emacs color-theme
-;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.2
-;; Package-Requires: ((color-theme "6.6.1"))
 
 ;;; Commentary:
 
@@ -74,7 +76,7 @@
      (font-lock-keyword-face ((t (:foreground "#3cff00" :bold t))))
      (font-lock-string-face ((t (:foreground "#ff0077" :italic nil :bold nil))))
      (font-lock-type-face ((t (:foreground "#deff00" :bold t))))
-     (font-lock-variable-name-face ((t (:foreground "#5500ff" :bold t))))
+     (font-lock-variable-name-face ((t (:foreground "#9900ff" :bold t))))
      (font-lock-warning-face ((t (:bold t :foreground "#ff0000"))))
      (font-lock-function-name-face ((t (:foreground "#ffee00" :bold t))))
      (comint-highlight-input ((t (:italic t :bold t))))
@@ -166,9 +168,9 @@
      (org-agenda-date-weekend ((t (:weight normal :foreground "#005fff"))))
      (org-agenda-date-today ((t (:weight bold :foreground "#ffc800"))))
      (org-agenda-done ((t (:weight normal :foreground "#00aa33"))))
-     (org-block-begin-line ((t (:foreground "#bbbbbb" :background "#330066"))))
-     (org-block-background ((t (:background "#003366"))))
-     (org-block-end-line ((t (:foreground "#bbbbbb" :background "#330066"))))
+     (org-block-begin-line ((t (:foreground "#bbbbbb" :background "#333333"))))
+     (org-block-background ((t (:background "#333333"))))
+     (org-block-end-line ((t (:foreground "#bbbbbb" :background "#333333"))))
      (org-document-title ((t (:weight bold :foreground "#0077cc"))))
      (org-document-info ((t (:weight normal :foreground "#0077cc"))))
      (org-warning ((t (:weight normal :foreground "#ee0033"))))

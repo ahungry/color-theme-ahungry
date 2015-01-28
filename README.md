@@ -10,7 +10,7 @@ To install, clone the repository via:
 
 ```
 cd ~/.emacs.d
-git clone http://ahungry.com/images/color-theme-ahungry.git
+git clone https://github.com/ahungry/color-theme-ahungry.git
 ```
 
 Then, make sure to add the following to your ~/.emacs:

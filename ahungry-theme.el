@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.4
+;; Version: 1.0.5
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,9 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.0.4:
+;; - Don't circumvent normal autoloads functionality, use the comment load method
 
 ;;;; Changes since 1.0.3:
 ;; - Manually include an autoloads file to make sure

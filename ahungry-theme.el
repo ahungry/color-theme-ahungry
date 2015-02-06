@@ -1,11 +1,11 @@
-;;; ahungry-theme.el --- Ahungry color theme for Emacs.
+;;; ahungry-theme.el --- Ahungry color theme for Emacs.  Make sure to (load-theme 'ahungry).
 
 ;; Copyright (C) 2015  Free Software Foundation, Inc.
 
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.3
+;; Version: 1.0.4
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -33,6 +33,13 @@
 ;; If you load it from a terminal, you will be able to make use of the
 ;; transparent background.  If you load it from a GUI, it will default
 ;; to a dark background.
+
+;;; News:
+
+;;;; Changes since 1.0.3:
+;; - Manually include an autoloads file to make sure
+;;   custom-theme-load-path is filled out
+;; - Update description to make mention of (load-theme 'ahungry) for new users
 
 ;;; Code:
 

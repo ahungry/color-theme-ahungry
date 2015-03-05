@@ -183,6 +183,8 @@
    '(magit-item-highlight ((t (:background "#111111" :slant normal :weight extra-bold :inverse-video nil))))
    '(minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
    '(web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))
+   '(helm-selection ((t (:foreground "#0022ff" :bold t :background "#77ff00"))))
+   '(helm-match ((t (:foreground "gold1"))))
    )
   (custom-theme-set-variables
    'ahungry

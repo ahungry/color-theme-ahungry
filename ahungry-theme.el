@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.5
+;; Version: 1.0.6
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,9 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.0.5:
+;; - Add a few colors for helm (the defaults did not work well with this theme)
 
 ;;;; Changes since 1.0.4:
 ;; - Don't circumvent normal autoloads functionality, use the comment load method
@@ -183,8 +186,9 @@
    '(magit-item-highlight ((t (:background "#111111" :slant normal :weight extra-bold :inverse-video nil))))
    '(minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
    '(web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))
-   '(helm-selection ((t (:foreground "#0022ff" :bold t :background "#77ff00"))))
+   '(helm-selection ((t (:foreground "#ff0099" :italic t :bold t :background "#f2e997"))))
    '(helm-match ((t (:foreground "gold1"))))
+   '(helm-visible-mark ((t (:background "#f2e997" :foreground "#ff0099" :bold nil :italic nil))))
    )
   (custom-theme-set-variables
    'ahungry

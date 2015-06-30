@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.6
+;; Version: 1.0.7
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -36,6 +36,10 @@
 
 ;;; News:
 
+;;;; Changes since 1.0.6:
+;; - Remove warning producing call to "default" background color
+;; - Add a color update for mm-uu-extract
+
 ;;;; Changes since 1.0.5:
 ;; - Add a few colors for helm (the defaults did not work well with this theme)
 
@@ -52,7 +56,7 @@
 (deftheme ahungry
   "Ahungry Theme")
 
-(let ((mainbg (if (display-graphic-p) "#222222" "default")))
+(let ((mainbg (when (display-graphic-p) "#222222")));; "default")))
   (custom-theme-set-faces
    'ahungry ;; This is the theme name
    `(default ((t (:foreground "#ffffff" :background ,mainbg
@@ -154,6 +158,7 @@
    '(message-header-subject ((t (:foreground "#ffffff"))))
    '(message-header-to ((t (:foreground "#ffffff"))))
    '(message-header-cc ((t (:foreground "#ffffff"))))
+   '(mm-uu-extract ((t (:foreground "#0066ff"))))
    '(org-hide ((t (:foreground "#009933"))))
    '(org-level-1 ((t (:bold t :foreground "#4477ff" :height 1.5))))
    '(org-level-2 ((t (:bold nil :foreground "#ffc800" :height 1.2))))

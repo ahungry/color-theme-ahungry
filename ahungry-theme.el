@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.8
+;; Version: 1.0.9
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,9 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.0.8:
+;; - Add even more colors for magit 2.0 face names
 
 ;;;; Changes since 1.0.7:
 ;; - Add colors for magit 2.0 face names
@@ -188,16 +191,20 @@
    '(org-document-title ((t (:weight bold :foreground "#0077cc"))))
    '(org-document-info ((t (:weight normal :foreground "#0077cc"))))
    '(org-warning ((t (:weight normal :foreground "#ee0033"))))
-   '(magit-diff-added-highlight ((t (:foreground "#00ff66"))))
+   '(magit-hash ((t (:foreground "#6699aa"))))
+   '(magit-branch-local ((t (:foreground "#0066ff"))))
+   '(magit-branch-remote ((t (:foreground "#ffcc44"))))
    '(magit-diffstat-added ((t (:foreground "#00ff66"))))
-   '(magit-diff-added ((t (:foreground "#00ff66"))))
-   '(magit-diff-removed-highlight ((t (:foreground "#ff0066"))))
+   '(magit-diff-added-highlight ((t (:foreground "#33ff00" :weight normal))))
+   '(magit-diff-added ((t (:foreground "#44aa00" :weight normal))))
+   '(magit-diff-removed-highlight ((t (:foreground "#ff0033" :weight normal))))
+   '(magit-diff-removed ((t (:foreground "#aa0044" :weight normal))))
+   '(magit-diff-hunk-heading ((t (:foreground "#aaaa00"))))
+   '(magit-diff-hunk-heading-highlight ((t (:foreground "#ffff00"))))
    '(magit-diffstat-removed ((t (:foreground "#ff0066"))))
-   '(magit-diff-removed ((t (:foreground "#ff0066"))))
    '(magit-diff-context-highlight ((t (:foreground "#ffffff"))))
-   '(magit-diff-hunk-heading-highlight ((t (:background "#333333" :foreground "#bbbbbb"))))
    '(magit-section-heading ((t (:foreground "#ff0066"))))
-   '(magit-section-highlight ((t (:foreground "#ffffff"))))
+   '(magit-section-highlight ((t (:weight bold))));;:foreground "#ffffff"))))
    '(minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
    '(web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))
    '(helm-selection ((t (:foreground "#ff0099" :italic t :bold t :background "#f2e997"))))

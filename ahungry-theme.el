@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.9
+;; Version: 1.0.10
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,9 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.0.9:
+;; - Add/adjust some of the org-mode faces
 
 ;;;; Changes since 1.0.8:
 ;; - Add even more colors for magit 2.0 face names

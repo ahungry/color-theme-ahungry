@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.10
+;; Version: 1.0.11
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,10 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.0.10:
+;; - Add faces for powerline/spaceline setup
+;; - Reduce org-mode heading sizes slightly
 
 ;;;; Changes since 1.0.9:
 ;; - Add/adjust some of the org-mode faces
@@ -80,6 +84,13 @@
                                 :box (:line-width 1 :color nil :style released-button)))))
    '(mode-line-inactive ((t (:foreground "#444444" :background "#66ff33"))))
    '(mode-line-buffer-id ((t (:bold t :foreground "#ffffff" :background "#0055ff"))))
+   '(powerline-active1 ((t (:foreground "#ffffff" :background "#222222"))))
+   '(powerline-active2 ((t (:foreground "#ffffff" :background "#77ff00"))))
+   '(powerline-inactive1 ((t (:foreground "#ffffff" :background "#555555"))))
+   '(powerline-inactive2 ((t (:foreground "#ffffff" :background "#66ff33"))))
+   '(spaceline-flycheck-error ((t (:foreground "#ff0066" :background "#333333"))))
+   '(spaceline-flycheck-info ((t (:foreground "#ffaa00" :background "#333333"))))
+   '(spaceline-flycheck-warning ((t (:foreground "#ffaa00" :background "#333333"))))
    '(region ((t (:background "#444444"))))
    '(link ((t (:underline t :foreground "#33ff99"))))
    '(custom-link ((t (:inherit 'link))))
@@ -169,8 +180,8 @@
    '(message-header-cc ((t (:foreground "#ffffff"))))
    '(mm-uu-extract ((t (:foreground "#0066ff"))))
    '(org-hide ((t (:foreground "#222222"))))
-   '(org-level-1 ((t (:bold t :foreground "#4477ff" :height 1.5))))
-   '(org-level-2 ((t (:bold nil :foreground "#ffc800" :height 1.2))))
+   '(org-level-1 ((t (:bold t :foreground "#4477ff" :height 1.4))))
+   '(org-level-2 ((t (:bold nil :foreground "#ffc800" :height 1.1))))
    '(org-level-3 ((t (:bold t :foreground "#00aa33" :height 1.0))))
    '(org-level-4 ((t (:bold nil :foreground "#f68585" :height 1.0))))
    '(org-date ((t (:underline t :foreground "#ff0066"))))

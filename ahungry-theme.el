@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.11
+;; Version: 1.0.12
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,9 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.0.11:
+;; - Purple is too hard to read on poor contrast monitors, use a blue
 
 ;;;; Changes since 1.0.10:
 ;; - Add faces for powerline/spaceline setup
@@ -106,7 +109,7 @@
    '(font-lock-keyword-face ((t (:foreground "#3cff00" :bold t))))
    '(font-lock-string-face ((t (:foreground "#ff0077" :italic nil :bold nil))))
    '(font-lock-type-face ((t (:foreground "#deff00" :bold t))))
-   '(font-lock-variable-name-face ((t (:foreground "#9900ff" :bold t))))
+   '(font-lock-variable-name-face ((t (:foreground "#0033ff" :bold t))))
    '(font-lock-warning-face ((t (:bold t :foreground "#ff0000"))))
    '(font-lock-function-name-face ((t (:foreground "#ffee00" :bold t))))
    '(comint-highlight-input ((t (:italic t :bold t))))
@@ -135,21 +138,21 @@
    '(gnus-cite-face-2 ((t (:foreground "#cba559"))))
    '(gnus-cite-face-3 ((t (:foreground "#83ae92"))))
    '(gnus-cite-face-4 ((t (:foreground "#6898a7"))))
-   '(gnus-group-mail-1-empty ((t (:foreground "#00bbff"))))
-   '(gnus-group-mail-1 ((t (:bold t :foreground "#00bbff"))))
-   '(gnus-group-mail-2-empty ((t (:foreground "#00ffbb"))))
-   '(gnus-group-mail-2 ((t (:bold t :foreground "#00ffbb"))))
+   '(gnus-group-mail-1-empty ((t (:foreground "#009955"))))
+   '(gnus-group-mail-1 ((t (:bold t :foreground "#ff9900"))))
+   '(gnus-group-mail-2-empty ((t (:foreground "#009955"))))
+   '(gnus-group-mail-2 ((t (:bold t :foreground "#ffaa00"))))
    '(gnus-group-mail-3-empty ((t (:foreground "#009955"))))
-   '(gnus-group-mail-3 ((t (:bold t :foreground "#ffc800"))))
-   '(gnus-group-mail-low-empty ((t (:foreground "#005fff"))))
+   '(gnus-group-mail-3 ((t (:bold t :foreground "#ffcc00"))))
+   '(gnus-group-mail-low-empty ((t (:foreground "#009955"))))
    '(gnus-group-mail-low ((t (:bold t :foreground "#005fff"))))
-   '(gnus-group-news-1-empty ((t (:foreground "#00bbff"))))
-   '(gnus-group-news-1 ((t (:bold t :foreground "#00bbff"))))
-   '(gnus-group-news-2-empty ((t (:foreground "#00ffbb"))))
-   '(gnus-group-news-2 ((t (:bold t :foreground "#00ffbb"))))
+   '(gnus-group-news-1-empty ((t (:foreground "#009955"))))
+   '(gnus-group-news-1 ((t (:bold t :foreground "#ff9900"))))
+   '(gnus-group-news-2-empty ((t (:foreground "#009955"))))
+   '(gnus-group-news-2 ((t (:bold t :foreground "#ffaa00"))))
    '(gnus-group-news-3-empty ((t (:foreground "#009955"))))
-   '(gnus-group-news-3 ((t (:bold t :foreground "#ffc800"))))
-   '(gnus-group-news-low-empty ((t (:foreground "#005fff"))))
+   '(gnus-group-news-3 ((t (:bold t :foreground "#ffcc00"))))
+   '(gnus-group-news-low-empty ((t (:foreground "#009955"))))
    '(gnus-group-news-low ((t (:bold t :foreground "#005fff"))))
    '(gnus-header-name ((t (:bold t :foreground "#33ffbb"))))
    '(gnus-header-from ((t (:bold t :foreground "#ffc800"))))

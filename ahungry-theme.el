@@ -1,11 +1,11 @@
 ;;; ahungry-theme.el --- Ahungry color theme for Emacs.  Make sure to (load-theme 'ahungry).
 
-;; Copyright (C) 2015  Free Software Foundation, Inc.
+;; Copyright (C) 2015,2016  Free Software Foundation, Inc.
 
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.0.12
+;; Version: 1.1.0
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,9 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.0.12:
+;; - Add erc/jabber faces to begin with
 
 ;;;; Changes since 1.0.11:
 ;; - Purple is too hard to read on poor contrast monitors, use a blue
@@ -229,6 +232,14 @@
    '(helm-selection ((t (:foreground "#ff0099" :italic t :bold t :background "#f2e997"))))
    '(helm-match ((t (:foreground "gold1"))))
    '(helm-visible-mark ((t (:background "#f2e997" :foreground "#ff0099" :bold nil :italic nil))))
+   '(erc-nick-default-face ((t (:foreground "#ff0099"))))
+   '(erc-current-nick-face ((t (:foreground "#0099ff"))))
+   '(erc-input-face ((t (:foreground "#0099ff"))))
+   '(erc-prompt-face ((t (:background nil :foreground "#666666" :bold t :italic t))))
+   '(erc-timestamp-face ((t (:background nil :foreground "#666666" :bold nil :italic t))))
+   '(jabber-chat-prompt-foreign ((t (:foreground "#ff0099"))))
+   '(jabber-chat-prompt-local ((t (:foreground "#0099ff"))))
+   '(jabber-rare-time-face ((t (:foreground "#666666" :bold nil :italic t))))
    )
   (custom-theme-set-variables
    'ahungry

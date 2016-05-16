@@ -78,10 +78,7 @@
 (let ((mainbg (when (display-graphic-p) "#222222")));; "default")))
   (custom-theme-set-faces
    'ahungry ;; This is the theme name
-   `(default ((t (:foreground "#ffffff" :background ,mainbg
-                              :family "Terminus" :foundry "xos4"
-                              :slant normal :weight normal
-                              :height 100 :width normal))))
+   `(default ((t (:foreground "#ffffff" :background ,mainbg :width normal))))
    '(cursor ((t (:background "#fce94f" :foreground "#ffffff"))))
    '(highlight ((t (:background "brown4" :foreground nil))))
    '(border ((t (:background "#888a85"))))

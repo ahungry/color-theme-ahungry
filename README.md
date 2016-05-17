@@ -17,6 +17,11 @@ Then, make sure to add the following to your ~/.emacs:
 ### Using load-theme
 ```lisp
 (add-to-list 'custom-theme-load-path "~/.emacs.d/color-theme-ahungry/")
+
+;; Only set this if you wish to retain your own font settings
+;; otherwise, leave it out.
+(setq ahungry-theme-font-settings nil)
+
 (load-theme 'ahungry t)
 ```
 the first time you load it, you will need to accept the theme.

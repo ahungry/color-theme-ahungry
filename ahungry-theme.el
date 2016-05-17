@@ -100,7 +100,7 @@ Default value:
    '(highlight ((t (:background "brown4" :foreground nil))))
    '(border ((t (:background "#888a85"))))
    '(fringe ((t (:background "#333333"))))
-   '(mode-line ((t (:foreground "#0022ff" :bold t :background "#77ff00"
+   '(mode-line ((t (:foreground "#0022aa" :bold t :background "#77ff00"
                                 :box (:line-width 1 :color nil :style released-button)))))
    '(mode-line-inactive ((t (:foreground "#444444" :background "#66ff33"))))
    '(mode-line-buffer-id ((t (:bold t :foreground "#ffffff" :background "#0055ff"))))

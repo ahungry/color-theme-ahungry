@@ -1,4 +1,4 @@
-;;; ahungry-theme.el --- Ahungry color theme for Emacs.  Make sure to (load-theme 'ahungry).
+;;; ahungry-theme.el --- Ahungry color theme for Emacs.  Make sure to (load-theme 'ahungry).  -*- lexical-binding:t -*-
 
 ;; Copyright (C) 2015,2016  Free Software Foundation, Inc.
 
@@ -87,7 +87,7 @@
 Leave this alone to retain defaults.
 
 Default value:
-  '(:family \"Terminus\" :foundry \"xos4\"
+   (:family \"Terminus\" :foundry \"xos4\"
             :slant normal :weight normal
             :height 100 :width normal)")
 

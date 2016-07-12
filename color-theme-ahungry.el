@@ -36,8 +36,7 @@
 
 ;;; Code:
 
-(eval-when-compile
-  (require 'color-theme))
+(declare-function color-theme-install "color-theme" (theme))
 
 ;; Currently background-color and foreground-color are intentionally left
 ;; commented out, so that the color-theme in terminal mode will not overwrite

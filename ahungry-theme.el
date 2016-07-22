@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.2.0
+;; Version: 1.3.0
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,11 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.2.0:
+;; - Few new faces related to helm-grep search results (poor contrast previously)
+;; - Merge in GNU Elpa changes (avoid message clobbering in color-theme-mode)
+;; - Add lexical binding to the top of the file
 
 ;;;; Changes since 1.1.0:
 ;; - New variable ahungry-theme-font-settings to avoid overriding user font sizes
@@ -100,6 +105,7 @@ Default value:
    '(highlight ((t (:background "brown4" :foreground nil))))
    '(border ((t (:background "#888a85"))))
    '(fringe ((t (:background "#333333"))))
+   '(error ((t (:foreground "Red1" :bold t))))
    '(mode-line ((t (:foreground "#0022aa" :bold t :background "#77ff00"
                                 :box (:line-width 1 :color nil :style released-button)))))
    '(mode-line-inactive ((t (:foreground "#444444" :background "#66ff33"))))
@@ -204,7 +210,7 @@ Default value:
    '(org-level-4 ((t (:bold nil :foreground "#f68585" :height 1.0))))
    '(org-date ((t (:underline t :foreground "#ff0066"))))
    '(org-footnote  ((t (:underline t :foreground "#ff0066"))))
-   '(org-link ((t (:foreground "skyblue2" :background "#2e3436"))))
+   '(org-link ((t (:foreground "#111111" :background "#ff0099"))))
    '(org-special-keyword ((t (:foreground "#cc0033"))))
    '(org-verbatim ((t (:foreground "#cc6600" :underline t :slant italic))))
    '(org-block ((t (:foreground "#999999"))))
@@ -218,6 +224,7 @@ Default value:
    '(org-agenda-date-weekend ((t (:weight normal :foreground "#005fff"))))
    '(org-agenda-date-today ((t (:weight bold :foreground "#ffc800"))))
    '(org-agenda-done ((t (:weight normal :foreground "#00aa33"))))
+   '(org-agenda-clocking ((t (:background "#333333" :weight bold))))
    '(org-block-begin-line ((t (:foreground "#bbbbbb" :background "#333333"))))
    '(org-block-background ((t (:background "#333333"))))
    '(org-block-end-line ((t (:foreground "#bbbbbb" :background "#333333"))))
@@ -241,6 +248,8 @@ Default value:
    '(magit-section-highlight ((t (:weight bold))));;:foreground "#ffffff"))))
    '(minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
    '(web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))
+   '(helm-grep-cmd-line ((t (:foreground "#0022aa"))))
+   '(helm-grep-finish ((t (:foreground "#0022aa"))))
    '(helm-selection ((t (:foreground "#ff0099" :italic t :bold t :background "#f2e997"))))
    '(helm-match ((t (:foreground "gold1"))))
    '(helm-visible-mark ((t (:background "#f2e997" :foreground "#ff0099" :bold nil :italic nil))))

@@ -177,6 +177,10 @@
      (magit-diff-add ((t (:foreground "#00ff00"))))
      (magit-diff-del ((t (:foreground "#ff0000"))))
      (magit-item-highlight ((t (:background "#111111" :slant normal :weight extra-bold :inverse-video nil))))
+     (realgud-overlay-arrow1 ((t (:foreground "#7fff00"))))
+     (realgud-overlay-arrow2 ((t (:foreground "cyan"))))
+     (realgud-overlay-arrow3 ((t  (:foreground "#5FAFAF"))))
+
      (minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
      (web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))
      (helm-selection ((t (:foreground "#ff0099" :italic t :bold t :background "#f2e997"))))

@@ -271,6 +271,9 @@ Default value:
    '(info-node ((t (:foreground "#ff0099"))))
    '(info-title-1 ((t (:foreground "yellow" :bold t))))
    '(info-title-2 ((t (:foreground "#ff0099"))))
+   '(realgud-overlay-arrow1 ((t (:foreground "#7fff00"))))
+   ' (realgud-overlay-arrow2 ((t (:foreground "cyan"))))
+   ' (realgud-overlay-arrow3 ((t  (:foreground "#5FAFAF"))))
    )
   (custom-theme-set-variables
    'ahungry

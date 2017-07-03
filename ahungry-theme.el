@@ -1,11 +1,11 @@
 ;;; ahungry-theme.el --- Ahungry color theme for Emacs.  Make sure to (load-theme 'ahungry).  -*- lexical-binding:t -*-
 
-;; Copyright (C) 2015,2016  Free Software Foundation, Inc.
+;; Copyright (C) 2015-2017  Free Software Foundation, Inc.
 
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.3.0
+;; Version: 1.4.0
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((emacs "24"))
 
@@ -35,6 +35,10 @@
 ;; to a dark background.
 
 ;;; News:
+
+;;;; Changes since 1.3.0:
+;; - Add realgud overlay arrow colors
+;; - Reverse org-link faces for readability
 
 ;;;; Changes since 1.2.0:
 ;; - Few new faces related to helm-grep search results (poor contrast previously)
@@ -210,7 +214,7 @@ Default value:
    '(org-level-4 ((t (:bold nil :foreground "#f68585" :height 1.0))))
    '(org-date ((t (:underline t :foreground "#ff0066"))))
    '(org-footnote  ((t (:underline t :foreground "#ff0066"))))
-   '(org-link ((t (:foreground "#111111" :background "#ff0099"))))
+   '(org-link ((t (:background "#111111" :foreground "#ff0099"))))
    '(org-special-keyword ((t (:foreground "#cc0033"))))
    '(org-verbatim ((t (:foreground "#cc6600" :underline t :slant italic))))
    '(org-block ((t (:foreground "#999999"))))
@@ -271,6 +275,10 @@ Default value:
    '(info-node ((t (:foreground "#ff0099"))))
    '(info-title-1 ((t (:foreground "yellow" :bold t))))
    '(info-title-2 ((t (:foreground "#ff0099"))))
+   '(realgud-line-number ((t (:foreground "#999999"))))
+   '(realgud-overlay-arrow1 ((t (:foreground "#6699ff"))))
+   '(realgud-overlay-arrow2 ((t (:foreground "#0099ff"))))
+   '(realgud-overlay-arrow3 ((t (:foreground "#00aa99"))))
    )
   (custom-theme-set-variables
    'ahungry

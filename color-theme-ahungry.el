@@ -5,7 +5,7 @@
 ;; Author: Matthew Carter <m@ahungry.com>
 ;; Maintainer: Matthew Carter <m@ahungry.com>
 ;; URL: https://github.com/ahungry/color-theme-ahungry
-;; Version: 1.5.0
+;; Version: 1.7.0
 ;; Keywords: ahungry palette color theme emacs color-theme deftheme
 ;; Package-Requires: ((color-theme "6.6.1"))
 
@@ -208,6 +208,8 @@
      (button ((t (:foreground "#0055ff" :bold t :underline t))))
      (Man-overstrike ((t (:foreground "yellow" :bold t))))
      (Man-underline ((t (:foreground "orange" :underline t))))
+     (woman-bold ((t (:foreground "yellow" :bold t))))
+     (woman-italic ((t (:foreground "orange" :underline t))))
      )))
 
 (provide 'color-theme-ahungry)

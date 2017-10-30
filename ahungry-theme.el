@@ -306,6 +306,8 @@ Default value:
    '(woman-bold ((t (:foreground "yellow" :bold t))))
    '(woman-italic ((t (:foreground "orange" :underline t))))
    '(evil-ex-lazy-highlight ((t (:foreground "orange" :italic t :bold t))))
+   '(dired-filetype-program ((t (:foreground "#0066ff"))))
+   '(diredp-compressed-file-suffix ((t (:foreground "#0066ff"))))
    )
   (custom-theme-set-variables
    'ahungry

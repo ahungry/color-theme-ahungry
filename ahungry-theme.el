@@ -324,7 +324,9 @@ Default value:
    '(rainbow-delimiters-depth-4-face ((t (:foreground "#0ff"))))
    '(rainbow-delimiters-depth-5-face ((t (:foreground "#ff7"))))
    '(rainbow-delimiters-depth-6-face ((t (:foreground "#f90"))))
-   '(rainbow-delimiters-depth-7-face ((t (:foreground "#f00"))))
+   '(rainbow-delimiters-depth-7-face ((t (:foreground "#f0a"))))
+   '(rainbow-delimiters-depth-8-face ((t (:foreground "#a0f"))))
+   '(rainbow-delimiters-depth-9-face ((t (:foreground "#0fa"))))
 
    '(rainbow-blocks-depth-1-face ((t (:foreground "#cf0" :bold t))))
    '(rainbow-blocks-depth-2-face ((t (:foreground "#0cf"))))
@@ -332,7 +334,9 @@ Default value:
    '(rainbow-blocks-depth-4-face ((t (:foreground "#0ff"))))
    '(rainbow-blocks-depth-5-face ((t (:foreground "#ff7"))))
    '(rainbow-blocks-depth-6-face ((t (:foreground "#f90"))))
-   '(rainbow-blocks-depth-7-face ((t (:foreground "#f00"))))
+   '(rainbow-blocks-depth-7-face ((t (:foreground "#f0a"))))
+   '(rainbow-blocks-depth-8-face ((t (:foreground "#a0f"))))
+   '(rainbow-blocks-depth-9-face ((t (:foreground "#0fa"))))
    )
   (custom-theme-set-variables
    'ahungry

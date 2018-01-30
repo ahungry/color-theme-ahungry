@@ -337,6 +337,8 @@ Default value:
    '(rainbow-blocks-depth-7-face ((t (:foreground "#f0a"))))
    '(rainbow-blocks-depth-8-face ((t (:foreground "#a0f"))))
    '(rainbow-blocks-depth-9-face ((t (:foreground "#0fa"))))
+
+   '(link ((t (:foreground "#cf0"))))
    )
   (custom-theme-set-variables
    'ahungry

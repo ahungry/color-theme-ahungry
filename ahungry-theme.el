@@ -152,7 +152,7 @@ Default value:
    '(font-lock-builtin-face ((t (:foreground "#a6f000"))))
    '(font-lock-comment-face ((t (:foreground "#e9b96e" :bold nil :italic nil))))
    '(font-lock-constant-face ((t (:foreground "#fff900"))))
-   '(font-lock-doc-face ((t (:foreground "#e9b96e" :bold nil :italic t))))
+   '(font-lock-doc-face ((t (:foreground "#e9b96e" :bold nil :italic nil))))
    '(clojure-keyword-face ((t (:foreground "#a6f000" :bold nil))))
    '(font-lock-keyword-face ((t (:foreground "#06c" :bold t))))
    '(font-lock-string-face ((t (:foreground "#0c6" :italic nil :bold nil))))

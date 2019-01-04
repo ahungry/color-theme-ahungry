@@ -106,7 +106,7 @@
   "Ahungry Theme")
 
 (defvar ahungry-theme-font-settings
-  '(:family "Terminus" :foundry "xos4"
+  '(:family "Iosevka" :foundry "xos4"
             :slant normal :weight normal
             :height 130 :width normal)
   "If set to nil, will avoid overriding the user font settings.
@@ -127,9 +127,9 @@ Default value:
    '(border ((t (:background "#888a85"))))
    '(fringe ((t (:background "#333333"))))
    '(error ((t (:foreground "Red1" :bold t))))
-   '(mode-line ((t (:foreground "#0022aa" :bold t :background "#77ff00"
+   '(mode-line ((t (:foreground "#af0" :bold t :background "#111"
                                 :box (:line-width 1 :color nil :style released-button)))))
-   '(mode-line-inactive ((t (:foreground "#444444" :background "#66ff33"))))
+   '(mode-line-inactive ((t (:foreground "#444444" :background "#222"))))
    '(mode-line-buffer-id ((t (:bold t :foreground "#ffffff" :background "#0055ff"))))
    '(powerline-active1 ((t (:foreground "#ffffff" :background "#222222"))))
    '(powerline-active2 ((t (:foreground "#ffffff" :background "#77ff00"))))
@@ -138,6 +138,9 @@ Default value:
    '(spaceline-flycheck-error ((t (:foreground "#ff0066" :background "#333333"))))
    '(spaceline-flycheck-info ((t (:foreground "#ffaa00" :background "#333333"))))
    '(spaceline-flycheck-warning ((t (:foreground "#ffaa00" :background "#333333"))))
+   '(telephone-line-accent-active ((t (:foreground "#af0" :background "#111"))))
+   '(telephone-line-accent-inactive ((t (:foreground "#444" :background "#222"))))
+   '(my-buffer-face ((t (:foreground "#fff" :background "#06c")))) ; Just a local face
    '(region ((t (:background "#444444"))))
    '(link ((t (:underline t :foreground "#33ff99"))))
    '(custom-link ((t (:inherit 'link))))
@@ -146,14 +149,15 @@ Default value:
    '(tooltip ((t (:inherit 'variable-pitch :foreground "black" :background "#ffff33"))))
    '(bold ((t (:bold t :underline nil :background nil))))
    '(italic ((t (:italic t :underline nil :background nil))))
-   '(font-lock-builtin-face ((t (:foreground "#0099ff"))))
-   '(font-lock-comment-face ((t (:foreground "#888a85" :bold nil :italic t))))
+   '(font-lock-builtin-face ((t (:foreground "#a6f000"))))
+   '(font-lock-comment-face ((t (:foreground "#e9b96e" :bold nil :italic nil))))
    '(font-lock-constant-face ((t (:foreground "#fff900"))))
-   '(font-lock-doc-face ((t (:foreground "#777700" :bold t :italic t))))
-   '(font-lock-keyword-face ((t (:foreground "#3cff00" :bold t))))
-   '(font-lock-string-face ((t (:foreground "#ff0077" :italic nil :bold nil))))
-   '(font-lock-type-face ((t (:foreground "#deff00" :bold t))))
-   '(font-lock-variable-name-face ((t (:foreground "#0066ff" :bold t))))
+   '(font-lock-doc-face ((t (:foreground "#e9b96e" :bold nil :italic t))))
+   '(clojure-keyword-face ((t (:foreground "#a6f000" :bold nil))))
+   '(font-lock-keyword-face ((t (:foreground "#06c" :bold t))))
+   '(font-lock-string-face ((t (:foreground "#0c6" :italic nil :bold nil))))
+   '(font-lock-type-face ((t (:foreground "#f06" :bold t :italic nil))))
+   '(font-lock-variable-name-face ((t (:foreground "#fa0" :bold t))))
    '(font-lock-warning-face ((t (:bold t :foreground "#ff0000"))))
    '(font-lock-function-name-face ((t (:foreground "#ffee00" :bold t))))
    '(comint-highlight-input ((t (:italic t :bold t))))
@@ -266,7 +270,7 @@ Default value:
    '(magit-diffstat-removed ((t (:foreground "#ff0066"))))
    '(magit-diff-context-highlight ((t (:foreground "#ffffff"))))
    '(magit-section-heading ((t (:foreground "#ff0066"))))
-   '(magit-section-highlight ((t (:weight bold))));;:foreground "#ffffff"))))
+   '(magit-section-highlight ((t (:weight bold)))) ;;:foreground "#ffffff"))))
    '(minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
    '(web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))
    '(helm-ff-directory ((t (:background "gold1" :foreground "#000000" :bold t))))
@@ -315,18 +319,18 @@ Default value:
    '(avy-lead-face-0 ((t (:foreground "#cf0" :bold t))))
    '(avy-lead-face-1 ((t (:foreground "#09f" :bold t))))
    '(avy-lead-face-2 ((t (:foreground "#0ff" :bold t))))
-   '(eyebrowse-mode-line-active ((t (:bold t))))
-   '(eyebrowse-mode-line-inactive ((t (:bold nil))))
+   '(eyebrowse-mode-line-active ((t (:underline t :bold t :background "#af0" :foreground "#000"))))
+   '(eyebrowse-mode-line-inactive ((t (:bold nil :foreground "#af0"))))
 
-   '(rainbow-delimiters-depth-1-face ((t (:foreground "#cf0"))))
-   '(rainbow-delimiters-depth-2-face ((t (:foreground "#0cf"))))
-   '(rainbow-delimiters-depth-3-face ((t (:foreground "#ff0"))))
-   '(rainbow-delimiters-depth-4-face ((t (:foreground "#0ff"))))
-   '(rainbow-delimiters-depth-5-face ((t (:foreground "#ff7"))))
-   '(rainbow-delimiters-depth-6-face ((t (:foreground "#f90"))))
-   '(rainbow-delimiters-depth-7-face ((t (:foreground "#f0a"))))
-   '(rainbow-delimiters-depth-8-face ((t (:foreground "#a0f"))))
-   '(rainbow-delimiters-depth-9-face ((t (:foreground "#0fa"))))
+   '(rainbow-delimiters-depth-1-face ((t (:foreground "#cf0" :bold t :italic t))))
+   '(rainbow-delimiters-depth-2-face ((t (:foreground "#0cf" :bold t :italic t))))
+   '(rainbow-delimiters-depth-3-face ((t (:foreground "#ff0" :bold t :italic t))))
+   '(rainbow-delimiters-depth-4-face ((t (:foreground "#0ff" :bold t :italic t))))
+   '(rainbow-delimiters-depth-5-face ((t (:foreground "#ff7" :bold t :italic t))))
+   '(rainbow-delimiters-depth-6-face ((t (:foreground "#f90" :bold t :italic t))))
+   '(rainbow-delimiters-depth-7-face ((t (:foreground "#f0a" :bold t :italic t))))
+   '(rainbow-delimiters-depth-8-face ((t (:foreground "#a0f" :bold t :italic t))))
+   '(rainbow-delimiters-depth-9-face ((t (:foreground "#0fa" :bold t :italic t))))
 
    '(rainbow-blocks-depth-1-face ((t (:foreground "#cf0"))))
    '(rainbow-blocks-depth-2-face ((t (:foreground "#0cf"))))
@@ -340,6 +344,9 @@ Default value:
 
    '(link ((t (:foreground "#af0"))))
    '(hackernews-link ((t (:foreground "#af0"))))
+
+   '(php-variable-sigil ((t (:foreground "#fa0" :bold nil :italic nil))))
+   '(php-variable-name ((t (:foreground "#fff" :bold nil :italic nil))))
    )
   (custom-theme-set-variables
    'ahungry

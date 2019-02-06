@@ -241,7 +241,7 @@ Default value:
    '(org-block ((t (:foreground "#999999"))))
    '(org-quote ((t (:inherit org-block :bold t :slant italic))))
    '(org-verse ((t (:inherit org-block :bold t :slant italic))))
-   '(org-table ((t (:foreground "#0055ff"))))
+   '(org-table ((t (:foreground "#0099ff"))))
    '(org-todo ((t (:bold t :foreground "#ff0099"))))
    '(org-done ((t (:bold t :foreground "#00cc33"))))
    '(org-agenda-structure ((t (:weight bold :foreground "#f68585"))))

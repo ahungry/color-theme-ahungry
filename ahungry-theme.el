@@ -344,6 +344,9 @@ Default value:
    '(rainbow-blocks-depth-8-face ((t (:foreground "#a0f"))))
    '(rainbow-blocks-depth-9-face ((t (:foreground "#0fa"))))
 
+   ;; Don't want smartparens overlay face
+   '(sp-pair-overlay-face ((t ())))
+
    '(link ((t (:foreground "#af0"))))
    '(hackernews-link ((t (:foreground "#af0"))))
 

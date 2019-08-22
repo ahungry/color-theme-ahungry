@@ -155,7 +155,7 @@ Default value:
    '(font-lock-doc-face ((t (:foreground "#e9b96e" :bold nil :italic nil))))
    '(clojure-keyword-face ((t (:foreground "#a6f000" :bold nil))))
    '(font-lock-keyword-face ((t (:foreground "#06c" :bold t))))
-   '(font-lock-string-face ((t (:foreground "#0c6" :italic nil :bold nil))))
+   '(font-lock-string-face ((t (:foreground "#0a3" :italic nil :bold nil))))
    '(font-lock-type-face ((t (:foreground "#f06" :bold t :italic nil))))
    '(font-lock-variable-name-face ((t (:foreground "#ff0" :bold nil))))
    '(font-lock-warning-face ((t (:bold t :foreground "#ff0000"))))
@@ -346,6 +346,14 @@ Default value:
 
    ;; Don't want smartparens overlay face
    '(sp-pair-overlay-face ((t ())))
+
+   ;; Company
+   '(company-tooltip ((t (:background "#333" :foreground "#999"))))
+   '(company-tooltip-common ((t (:background "#333" :foreground "#09f"))))
+   '(company-tooltip-common-selection ((t (:background "#333" :foreground "#af0"))))
+   '(company-scrollbar-bg ((t (:background "#333" :foreground "#af0"))))
+   '(company-scrollbar-fg ((t (:background "#333" :foreground "#af0"))))
+   '(company-tooltip-selection ((t (:background "#333" :foreground "#af0"))))
 
    '(link ((t (:foreground "#af0"))))
    '(hackernews-link ((t (:foreground "#af0"))))

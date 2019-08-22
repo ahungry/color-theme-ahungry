@@ -350,10 +350,13 @@ Default value:
    ;; Company
    '(company-tooltip ((t (:background "#333" :foreground "#999"))))
    '(company-tooltip-common ((t (:background "#333" :foreground "#09f"))))
-   '(company-tooltip-common-selection ((t (:background "#333" :foreground "#af0"))))
+   '(company-tooltip-common-selection ((t (:background "#222" :foreground "#af0"))))
    '(company-scrollbar-bg ((t (:background "#333" :foreground "#af0"))))
    '(company-scrollbar-fg ((t (:background "#333" :foreground "#af0"))))
-   '(company-tooltip-selection ((t (:background "#333" :foreground "#af0"))))
+   '(company-tooltip-selection ((t (:background "#222" :foreground "#af0"))))
+
+   ;; Popup
+   '(popup-tip-face ((t (:background "#069" :foreground "#af0"))))
 
    '(link ((t (:foreground "#af0"))))
    '(hackernews-link ((t (:foreground "#af0"))))

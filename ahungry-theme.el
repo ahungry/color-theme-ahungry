@@ -358,6 +358,9 @@ Default value:
    ;; Popup
    '(popup-tip-face ((t (:background "#069" :foreground "#af0"))))
 
+   '(viper-minibuffer-emacs ((t (:background "#af0"))))
+   '(viper-minibuffer-insert ((t (:foreground "#af0"))))
+
    '(link ((t (:foreground "#af0"))))
    '(hackernews-link ((t (:foreground "#af0"))))
 

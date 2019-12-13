@@ -274,6 +274,8 @@ Default value:
    '(minibuffer-prompt ((t (:foreground "#0055ff" :bold t))))
    '(web-mode-html-tag-bracket-face ((t (:foreground "#666666"))))
    '(web-mode-variable-name-face ((t (:foreground "#af0"))))
+   '(web-mode-constant-face ((t (:foreground "#fff"))))
+   '(web-mode-function-call-face ((t (:foreground "#fff"))))
    '(tide-hl-identifier-face ((t (:foreground "#f0a" :bold t))))
    '(helm-ff-directory ((t (:background "gold1" :foreground "#000000" :bold t))))
    '(helm-ff-dotted-directory ((t (:foreground "#666"))))

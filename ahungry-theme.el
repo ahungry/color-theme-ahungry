@@ -276,7 +276,7 @@ Default value:
    '(web-mode-html-tag-face ((t (:foreground "#ccc"))))
    '(web-mode-variable-name-face ((t (:foreground "#af0"))))
    '(web-mode-constant-face ((t (:foreground "#fff900"))))
-   '(web-mode-function-call-face ((t (:foreground "#f06"))))
+   '(web-mode-function-call-face ((t (:foreground "#ff0099" :bold t))))
    '(tide-hl-identifier-face ((t (:foreground "#f0a" :bold t))))
    '(helm-ff-directory ((t (:background "gold1" :foreground "#000000" :bold t))))
    '(helm-ff-dotted-directory ((t (:foreground "#666"))))

@@ -125,7 +125,7 @@ Default value:
    '(cursor ((t (:background "#fce94f" :foreground "#ffffff"))))
    '(highlight ((t (:background "brown4" :foreground nil))))
    '(border ((t (:background "#888a85"))))
-   '(fringe ((t (:background "#333333"))))
+   '(fringe ((t (:background "#101010"))))
    '(error ((t (:foreground "Red1" :bold t))))
    '(mode-line ((t (:foreground "#af0" :bold t :background "#111"
                                 :box (:line-width 1 :color nil :style released-button)))))

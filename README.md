@@ -1,5 +1,6 @@
 # Color Theme Ahungry
 
+[![GNU ELPA](https://elpa.gnu.org/packages/ahungry-theme.svg)](https://elpa.gnu.org/packages/ahungry-theme.html)
 [![MELPA](http://melpa.org/packages/ahungry-theme-badge.svg)](http://melpa.org/#/ahungry-theme)
 
 This is a color theme with bold bright colors that works well with GNU

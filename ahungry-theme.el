@@ -278,6 +278,7 @@ Default value:
    '(web-mode-constant-face ((t (:foreground "#fff900"))))
    '(web-mode-function-call-face ((t (:foreground "#fe0" :bold t))))
    '(tide-hl-identifier-face ((t (:foreground "#f0a" :bold t))))
+   '(selectrum-current-candidate ((t (:foreground "#cf0066" :bold t))))
    '(helm-ff-directory ((t (:background "gold1" :foreground "#000000" :bold t))))
    '(helm-ff-dotted-directory ((t (:foreground "#666"))))
    '(helm-ff-dotted-symlink-directory ((t (:foreground "#999"))))

@@ -108,7 +108,7 @@
 (defvar ahungry-theme-font-settings
   '(:family "Iosevka" :foundry "xos4"
             :slant normal :weight normal
-            :height 130 :width normal)
+            :height 100 :width normal)
   "If set to nil, will avoid overriding the user font settings.
 Leave this alone to retain defaults.
 
@@ -117,15 +117,16 @@ Default value:
             :slant normal :weight normal
             :height 100 :width normal)")
 
-(let ((mainbg (when (display-graphic-p) "#101010")));; "default")))
+(let ((mainbg (if (display-graphic-p)
+                '(:background "#050505")
+                '(:background unspecified))))
   (custom-theme-set-faces
    'ahungry ;; This is the theme name
-   `(default ((t (:foreground "#ffffff" :background ,mainbg
-                              ,@ahungry-theme-font-settings))))
+   `(default ((t (:foreground "#ffffff" ,@mainbg ,@ahungry-theme-font-settings))))
    '(cursor ((t (:background "#fce94f" :foreground "#ffffff"))))
-   '(highlight ((t (:background "brown4" :foreground nil))))
+   '(highlight ((t (:background "brown4" :foreground unspecified))))
    '(border ((t (:background "#888a85"))))
-   '(fringe ((t (:background "#101010"))))
+   '(fringe ((t (:background "#050505"))))
    '(error ((t (:foreground "Red1" :bold t))))
    '(mode-line ((t (:foreground "#af0" :bold t :background "#111"
                                 :box (:line-width 1 :color nil :style released-button)))))
@@ -147,10 +148,12 @@ Default value:
    '(match ((t (:bold t :background "#e9b96e" :foreground "#2e3436"))))
    '(tool-tips ((t (:inherit 'variable-pitch :foreground "black" :background "#ffff33"))))
    '(tooltip ((t (:inherit 'variable-pitch :foreground "black" :background "#ffff33"))))
-   '(bold ((t (:bold t :underline nil :background nil))))
-   '(italic ((t (:italic t :underline nil :background nil))))
+   '(bold ((t (:bold t :underline nil :background unspecified))))
+   '(italic ((t (:italic t :underline nil :background unspecified))))
    '(font-lock-builtin-face ((t (:foreground "#a6f000"))))
    '(font-lock-comment-face ((t (:foreground "#999999" :bold nil :italic nil))))
+   ;; '(marginalia-documentation ((t (:foreground "#999999" :bold nil :italic nil))))
+   ;; '(marginalia-file-name ((t (:foreground "#999999" :bold nil :italic nil))))
    '(font-lock-constant-face ((t (:foreground "#ff0"))))
    '(font-lock-doc-face ((t (:foreground "#e9b96e" :bold nil :italic nil))))
    '(clojure-keyword-face ((t (:foreground "#a6f000" :bold nil))))
@@ -166,8 +169,8 @@ Default value:
    '(diff-index ((t (:foreground "#ffff00" :bold t))))
    '(diff-file-header ((t (:foreground "#aaaaaa" :bold t))))
    '(diff-hunk-header ((t (:foreground "#ffff00"))))
-   '(diff-added ((t (:background "default" :foreground "#00ff00" :weight normal))))
-   '(diff-removed ((t (:background "default" :foreground "#ff0000" :weight normal))))
+   '(diff-added ((t (:background unspecified :foreground "#00ff00" :weight normal))))
+   '(diff-removed ((t (:background unspecified :foreground "#ff0000" :weight normal))))
    '(diff-context ((t (:foreground "#777777"))))
    '(diff-refine-change ((t (:bold t :background "#444444"))))
    '(isearch ((t (:background "#ff6600" :foreground "#333333"))))
@@ -285,6 +288,8 @@ Default value:
    '(orderless-match-face-2 ((t (:foreground "#cf0066" :bold t))))
    '(orderless-match-face-3 ((t (:foreground "#cf0066" :bold t))))
    '(completions-common-part ((t (:foreground "#cf0066" :bold t))))
+   '(completions-annotations ((t (:background unspecified :foreground "#af0" :bold nil :italic t))))
+   '(completions-group-title ((t (:background unspecified :foreground "#fa0" :bold t))))
    '(helm-ff-directory ((t (:background "gold1" :foreground "#000000" :bold t))))
    '(helm-ff-dotted-directory ((t (:foreground "#666"))))
    '(helm-ff-dotted-symlink-directory ((t (:foreground "#999"))))
@@ -300,8 +305,8 @@ Default value:
    '(erc-nick-default-face ((t (:foreground "#ff0099"))))
    '(erc-current-nick-face ((t (:foreground "#0099ff"))))
    '(erc-input-face ((t (:foreground "#0099ff"))))
-   '(erc-prompt-face ((t (:background nil :foreground "#666666" :bold t :italic t))))
-   '(erc-timestamp-face ((t (:background nil :foreground "#666666" :bold nil :italic t))))
+   '(erc-prompt-face ((t (:background unspecified :foreground "#666666" :bold t :italic t))))
+   '(erc-timestamp-face ((t (:background unspecified :foreground "#666666" :bold nil :italic t))))
    '(jabber-chat-prompt-foreign ((t (:foreground "#ff0099"))))
    '(jabber-chat-prompt-local ((t (:foreground "#0099ff"))))
    '(jabber-rare-time-face ((t (:foreground "#666666" :bold nil :italic t))))

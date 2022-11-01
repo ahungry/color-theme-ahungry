@@ -123,7 +123,7 @@ Default value:
   (custom-theme-set-faces
    'ahungry ;; This is the theme name
    `(default ((t (:foreground "#ffffff" ,@mainbg ,@ahungry-theme-font-settings))))
-   '(cursor ((t (:background "#fce94f" :foreground "#ffffff"))))
+   '(cursor ((t (:background "#fce94f" :foreground "#000000"))))
    '(highlight ((t (:background "brown4" :foreground unspecified))))
    '(border ((t (:background "#888a85"))))
    '(fringe ((t (:background "#050505"))))
@@ -283,6 +283,9 @@ Default value:
    '(tide-hl-identifier-face ((t (:foreground "#f0a" :bold t))))
    '(selectrum-current-candidate ((t (:background "#111" :foreground "#cf0066" :bold t))))
    '(vertico-current ((t (:background "#111" :foreground "#cf0066" :bold t))))
+   '(consult-preview-cursor ((t (:background "#0af" :foreground "#000000" :bold t))))
+   '(consult-preview-match ((t (:background "#0cf" :foreground "#000" :bold t))))
+   '(consult-highlight-match ((t (:background "#af0" :foreground "#000" :bold t))))
    '(orderless-match-face-0 ((t (:foreground "#cf0066" :bold t))))
    '(orderless-match-face-1 ((t (:foreground "#cf0066" :bold t))))
    '(orderless-match-face-2 ((t (:foreground "#cf0066" :bold t))))

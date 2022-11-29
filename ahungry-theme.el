@@ -141,6 +141,10 @@ Default value:
    '(spaceline-flycheck-warning ((t (:foreground "#ffaa00" :background "#333333"))))
    '(telephone-line-accent-active ((t (:foreground "#af0" :background "#111"))))
    '(telephone-line-accent-inactive ((t (:foreground "#444" :background "#222"))))
+   '(flycheck-error-list-info ((t (:foreground "#0f0"))))
+   '(flycheck-fringe-info ((t (:foreground "#0f0"))))
+   '(flycheck-info ((t (:foreground "#0f0"))))
+   '(flymake-note ((t (:foreground "#0f0"))))
    '(my-buffer-face ((t (:foreground "#fff" :background "#06c")))) ; Just a local face
    '(region ((t (:background "#444444"))))
    '(link ((t (:underline t :foreground "#3af"))))

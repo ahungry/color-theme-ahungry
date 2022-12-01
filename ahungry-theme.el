@@ -391,7 +391,7 @@ Default value:
    '(php-variable-sigil ((t (:foreground "#fa0" :bold nil :italic nil))))
    '(php-variable-name ((t (:foreground "#fff" :bold nil :italic nil))))
    '(nim-font-lock-number-face ((t (:italic nil))))
-   '(nim-font-lock-export-face ((t (:foreground "#af0" :bold t :italic nil))))
+   '(nim-font-lock-export-face ((t (:foreground "#fe0" :underline t :bold t :italic nil))))
    )
   (custom-theme-set-variables
    'ahungry

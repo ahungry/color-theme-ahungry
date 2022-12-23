@@ -162,7 +162,7 @@ Default value:
    '(font-lock-doc-face ((t (:foreground "#e9b96e" :bold nil :italic nil))))
    '(clojure-keyword-face ((t (:foreground "#a6f000" :bold nil))))
    '(font-lock-keyword-face ((t (:foreground "#06c" :bold t))))
-   '(font-lock-string-face ((t (:foreground "#83ae92" :italic t :bold nil :underline nil))))
+   '(font-lock-string-face ((t (:foreground "#0a3" :italic t :bold nil))))
    '(font-lock-type-face ((t (:foreground "#f06" :bold t :italic nil))))
    '(font-lock-variable-name-face ((t (:foreground "#3af" :bold nil))))
    '(font-lock-warning-face ((t (:bold t :foreground "#ff0000"))))

@@ -287,10 +287,17 @@ Default value:
    '(web-mode-function-call-face ((t (:foreground "#fe0" :bold t))))
    '(tide-hl-identifier-face ((t (:foreground "#f0a" :bold t))))
    '(selectrum-current-candidate ((t (:background "#111" :foreground "#cf0066" :bold t))))
-   '(vertico-current ((t (:background "#111" :foreground "#cf0066" :bold t))))
+   '(vertico-current ((t (:background "#222" :foreground "#cf0066" :bold t))))
    '(consult-preview-cursor ((t (:background "#0af" :foreground "#000000" :bold t))))
    '(consult-preview-match ((t (:background "#0cf" :foreground "#000" :bold t))))
    '(consult-highlight-match ((t (:background "#af0" :foreground "#000" :bold t))))
+
+   ;; urxvt (my fave) doesn't support strike-through, so most these were never appearing
+   ;; underline at least causes it to appear
+   '(completions-group-separator ((t (:underline t :strike-through nil))))
+   '(consult-separator ((t (:underline t :strike-through nil))))
+   '(vertico-group-separator ((t (:underline t :strike-through nil))))
+
    '(orderless-match-face-0 ((t (:foreground "#cf0066" :bold t))))
    '(orderless-match-face-1 ((t (:foreground "#cf0066" :bold t))))
    '(orderless-match-face-2 ((t (:foreground "#cf0066" :bold t))))
